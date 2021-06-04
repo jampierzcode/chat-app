@@ -1,3 +1,77 @@
-h1 {
-  color: #29bd0a;
+/* Configuraciones generales del html */
+* {
+  margin: 0; /* margenes*/
+  padding: 0; /* rellenos*/
+  box-sizing: border-box; /* encajar elementos */
 }
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Quicksand", sans-serif;
+}
+/* Fin de las configuraciones generales */
+
+/* Estilos para el formulario */
+
+.aplicacion_login {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("img/fondo_login.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.content_login {
+  padding: 80px 15px;
+  background: #fff;
+}
+.title_login {
+  font-size: 40px;
+  font-weight: 600;
+  color: #5708e0;
+  text-align: center;
+}
+.formulario_login {
+  width: 450px;
+  padding: 12px 24px;
+}
+.formulario_login .componente_input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.formulario_login .componente_input h1 {
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: 500;
+}
+.input_content {
+  display: flex;
+  align-items: center;
+  background: #ececec;
+  border-radius: 20px;
+  padding: 0px 20px;
+}
+.formulario_login .componente_input input {
+  width: 100%;
+  padding: 15px 10px;
+  border-style: none;
+  background: transparent;
+}
+.formulario_login .componente_input input:focus {
+  outline: none;
+}
+.formulario_login button {
+  width: 100%;
+  padding: 15px 10px;
+  background: #5708e0;
+  color: #fff;
+  border-style: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+/* Fin de los estilos para el formulario*/
